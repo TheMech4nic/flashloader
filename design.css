@@ -40,21 +40,6 @@ $speed: 12s;
     clip-path: polygon(1058px 354px, 915px 519px, 948px 512px, 884px 618px, 919px 612px, 857px 727px, 998px 568px, 968px 572px, 1029px 473px, 990px 480px);
 }
 
-.loadingBar {
-    position: absolute;
-    left: 0;
-    width: 100%; height: 100%;
-    background-color: yellow;
-    transform-origin: top center;
-    transform: rotate(-10deg);
-    animation: loading $speed linear infinite;
-    
-    @keyframes loading {
-        0%, 11%, 90.001%, 100% { top: 730px; }
-        90% { top: 350px; }
-    }
-}
-
 .sides {
     position: absolute;
     top: 0; left: 0;
